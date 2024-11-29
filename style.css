@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Romanesco&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(212, 212, 156);
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: purple;
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+    font-family: "Romanesco", cursive;
+    color: black;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: white;
+    border-top: 4px solid white;
+}
+#pedido{
+    background-color: black;
+    padding: 10px 25px;
+    color: violet;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin: 5%;
+}
+#pedido:hover{
+    border: none;
+    background-color: white;
+    color: purple;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.cabeca{
+    flex: 40%;
+    margin-left: 10%;
+}
+.cabeca h2{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.cabeca p{
+    text-align: left;
+    color: white;
+}
+.img-dele{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.botao-pedido{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.info{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+.info h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: purple;
+}
+.personagens{
+    display: inline-grid;
+    margin: 5px;
+}
+.famosinhos{
+    flex-direction: column-reverse;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.famosinhos:hover{
+    background-color: purple;
+    color: white;
+    padding: 4px;
+}
+
+footer{
+    background-color: purple;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contato h2 , .hora h2 , .midia h2 , .mapa h2{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.contato , .hora , .midia , .mapa{
+    font-size: 16px;
+}
+.botton{
+    padding: 10px 0;
+    opacity: 0.9;
+}
