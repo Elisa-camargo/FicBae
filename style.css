@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    background-color: rgb(212, 212, 156);
+    background-color: silver;
 }
 .navbar{
     display: flex;
@@ -19,11 +19,11 @@ body{
 }
 .logo{
     flex: 20%;
-    text-align: left;
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
     margin-left: 10%;
     font-family: "Romanesco", cursive;
-    color: black;
+    color: silver;
 }
 .menu{
     flex: 70%;
@@ -114,7 +114,7 @@ header{
     flex-direction: column-reverse;
     width: 30%;
     padding: 20px;
-    margin: 1%;
+    margin-left: 70%;
     border: 2px solid purple;
     border-radius: 10px;
 }
